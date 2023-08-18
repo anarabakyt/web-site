@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-box top-box-b">
+        <h4>Need Help?</h4>
+        <div class="form-container">
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    <input type="hidden" name="orgid" value="00D8e000000K9Mw">
+    <input type="hidden" name="retURL" value="http://google.com">
+
+    <label for="name">Contact Name</label>
+    <input id="name" maxlength="80" name="name" type="text">
+
+    <label for="email">Email</label>
+    <input id="email" maxlength="80" name="email" type="text">
+
+    <label for="phone">Phone</label>
+    <input id="phone" maxlength="40" name="phone" type="text">
+
+    <label for="subject">Subject</label>
+    <input id="subject" maxlength="80" name="subject" type="text">
+
+    <label for="description">Description</label>
+    <textarea name="description"></textarea>
+
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</div>
+
+     </div>
+</body>
+</html>
